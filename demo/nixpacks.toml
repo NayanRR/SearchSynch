@@ -6,7 +6,7 @@ commands = ["mvn install -DskipTests"]
 commands = ["mvn package"]
 
 [phases.start]
-commands = ["java -jar target/.jar"]
+commands = ["java -jar target/demo-0.0.1-SNAPSHOT.jar"]
 
 [environment]
 JAVA_VERSION = "17"  # Specify the Java version you are using
