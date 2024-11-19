@@ -1,0 +1,7 @@
+[phases]
+setup = "mvn install -DskipTests"  # Command to install dependencies
+build = "mvn package"             # Command to build the application
+start = "java -jar target/*.jar"  # Command to start the application
+
+[environment]
+JAVA_VERSION = "17"  # Specify the Java version you are using
